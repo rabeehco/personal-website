@@ -1,0 +1,33 @@
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.animatedFName {
+    font-size: 5rem;
+    align-self: flex-start;
+}
+
+.animatedLName {
+    font-size: 5rem;
+    align-self: flex-end;
+}
+
+.animateParagraph {
+    font-size: 1.5rem;
+    margin-top: 90px;
+    font-family: monospace;
+}
+
+.introImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introImage img {
+    height: 300px;
+    width: 300px;
+}

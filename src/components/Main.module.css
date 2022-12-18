@@ -1,0 +1,10 @@
+.blah{
+    background-image: url('https://images.unsplash.com/photo-1589678678131-be6ecbda5dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80');
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
