@@ -8,10 +8,10 @@ import classes from './Intro.module.css'
 
 function Intro() {
     return (
-        <Container className={classes.main}>
-            <Row style={{ height: '95vh' }} className="d-flex ">
+        <Container>
+            <Row style={{ minHeight: '95vh' }} className="d-flex ">
                 <Col className={`${classes.flexCenter}`}>
-                    {/* <h1>Rabeeh</h1> */}
+                  
                     <AnimatedText
                         type='words'
                         interval={0.04}
@@ -25,7 +25,7 @@ function Intro() {
                         Rabeeh
                     </AnimatedText>
                     <br />
-                    {/* <h1>Ebrahim</h1> */}
+                   
                     <AnimatedText
                         type='words'
                         interval={0.04}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 .flexCenter {
     display: flex;
     justify-content: center;
@@ -8,11 +9,13 @@
 .animatedFName {
     font-size: 5rem;
     align-self: flex-start;
+    font-family: 'Monoton', cursive;
 }
 
 .animatedLName {
     font-size: 5rem;
     align-self: flex-end;
+    font-family: 'Monoton', cursive;
 }
 
 .animateParagraph {

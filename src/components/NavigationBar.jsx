@@ -10,7 +10,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function NavigationBar() {
     return (
-        <Navbar bg="light" variant="light">
+        <Navbar bg="light" variant="light" fixed='top'>
             <Container className='d-flex justify-content-between'>
                 <Navbar.Brand href="#home">Rabeeh Ebrahim</Navbar.Brand>
                 <Nav>

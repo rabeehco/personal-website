@@ -1,0 +1,15 @@
+.main{
+    background-color: rgb(245, 235, 235);
+    height: 65vh;
+    color: black    ;
+}
+
+.about h2 {
+    display: flex;
+    align-self: flex-start;
+}
+.about p {
+    font-size: 1.7rem;
+    display: flex;
+    text-align: start;
+}
