@@ -1,7 +1,10 @@
 .main{
     background-color: rgb(245, 235, 235);
-    height: 65vh;
-    color: black    ;
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about h2 {
@@ -9,7 +12,7 @@
     align-self: flex-start;
 }
 .about p {
-    font-size: 1.7rem;
+    font-size: 26px;
     display: flex;
     text-align: start;
 }

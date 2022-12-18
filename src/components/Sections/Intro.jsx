@@ -8,7 +8,7 @@ import classes from './Intro.module.css'
 
 function Intro() {
     return (
-        <Container>
+        <Container id='intro'>
             <Row style={{ minHeight: '95vh' }} className="d-flex ">
                 <Col className={`${classes.flexCenter}`}>
                   

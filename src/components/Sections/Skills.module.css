@@ -1,0 +1,33 @@
+.main{
+    background-color: rgb(245, 235, 235);
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills h2 {
+    display: flex;
+    align-self: flex-start;
+}
+.skills p {
+    font-size: 1.7rem;
+    display: flex;
+    text-align: start;
+}
+
+.logos { 
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.holopin {
+    width: 80%;
+    height: 100%;
+    align-self: flex-start;
+    display: flex;
+}
