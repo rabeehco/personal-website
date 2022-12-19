@@ -24,34 +24,34 @@ function Skills() {
 
     return (
         <Container fluid id='skills'>
-            <Row className={`${classes.main}`}>
+            <Row className={`${classes.main} pt-5`}>
                 <Col className={`${classes.skills}`}>
                     <h2 className='ms-5 fw-bold'>Skills</h2>
                     <p className='mt-4 ms-5'>Proficient:</p>
                     <div className={`${classes.logos} ms-5 w-50`}>
-                        <img src={js}></img>
-                        <img src={react}></img>
-                        <img src={node}></img>
-                        <img src={express}></img>
-                        <img src={mongodb}></img>
-                        <img src={firebase}></img>
-                        <img src={html}></img>
-                        <img src={css}></img>
-                        <img src={bootstrap}></img>
+                        <img src={js} alt='JavaScript Logo'></img>
+                        <img src={react} alt='Reactjs Logo'></img>
+                        <img src={node} alt='Nodejs Logo'></img>
+                        <img src={express} alt='Expressjs Logo'></img>
+                        <img src={mongodb} alt='MongoDB Logo'></img>
+                        <img src={firebase} alt='Firebase Logo'></img>
+                        <img src={html} alt='HTML Logo'></img>
+                        <img src={css} alt='CSS Logo'></img>
+                        <img src={bootstrap} alt='Bootstrap Logo'></img>
                     </div>
                     <p className='mt-4 ms-5'>Tools:</p>
                     <div className={`${classes.logos} ms-5 w-25`}>
-                        <img src={git}></img>
-                        <img src={postman}></img>
-                        <img src={figma}></img>
-                        <img src={heroku}></img>
+                        <img src={git} alt='GIT Logo'></img>
+                        <img src={postman} alt='Postman Logo'></img>
+                        <img src={figma} alt='Figma Logo'></img>
+                        <img src={heroku} alt='Heroku Logo'></img> 
 
                     </div>
                 </Col >
 
                 <Col className={`mt-5 ${classes.skills}`}>
                     <h2 className='ms-5 fw-bold'>Achievements</h2>
-                    <img className={`${classes.holopin} mt-3 mb-5 ms-5`} src='https://www.holopin.me/codewithrabeeh' />
+                    <img className={`${classes.holopin} mt-3 mb-5 ms-5`} src='https://www.holopin.me/codewithrabeeh' alt='holopin' />
                 </Col>
             </Row>
         </Container>

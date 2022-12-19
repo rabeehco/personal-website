@@ -1,0 +1,26 @@
+.main {
+    /* background-color: rgb(245, 235, 235); */
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work {
+    color: black;
+    padding-bottom: 20px;
+}
+
+.projectTitle {
+    text-align: start;
+}
+
+.projectCard {
+    width: 18rem;
+}
+
+.ProjectCard img{
+    height: 200px;
+    width: 100%;
+}
