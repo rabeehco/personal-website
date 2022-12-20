@@ -29,8 +29,8 @@ function Work() {
                                     A tech community for lone parents using MERN Stack.
                                 </Card.Text>
                                 <div>
-                                    <a href='https://github.com/codewithrabeeh/mom_in_tech' target='_blank' rel='noreferrer'><Button variant="secondary">GitHub</Button></a>
-                                    <a href='https://momintech.netlify.app' target='_blank' rel='noreferrer'><Button variant="secondary" className='ms-3'>Preview</Button></a>
+                                    <a href='https://github.com/codewithrabeeh/mom_in_tech' target='_blank' rel='noreferrer'><Button variant="dark">GitHub</Button></a>
+                                    <a href='https://momintech.netlify.app' target='_blank' rel='noreferrer'><Button variant="dark" className='ms-3'>Preview</Button></a>
                                 </div>
                             </Card.Body>
                         </Card>
@@ -46,8 +46,8 @@ function Work() {
                                     Tripazo is a campground website built with Node.js.
                                 </Card.Text>
                                 <div>
-                                    <a href='https://github.com/codewithrabeeh/Tripazo' target='_blank' rel='noreferrer'><Button variant="secondary">GitHub</Button></a>
-                                    <a href='https://tripazo.tk/' target='_blank' rel='noreferrer'><Button variant="secondary" className='ms-3'>Preview</Button></a>
+                                    <a href='https://github.com/codewithrabeeh/Tripazo' target='_blank' rel='noreferrer'><Button variant="dark">GitHub</Button></a>
+                                    <a href='https://tripazo.tk/' target='_blank' rel='noreferrer'><Button variant="dark" className='ms-3'>Preview</Button></a>
                                 </div>
                             </Card.Body>
                         </Card>
@@ -63,8 +63,8 @@ function Work() {
                                     A clone of Netflix using React.js and TMDB API
                                 </Card.Text>
                                 <div>
-                                    <a href='https://github.com/codewithrabeeh/React-Netflix' target='_blank' rel='noreferrer'><Button variant="secondary">GitHub</Button></a>
-                                    <a href='https://netflix-cwr.netlify.app/' target='_blank' rel='noreferrer'><Button variant="secondary" className='ms-3'>Preview</Button></a>
+                                    <a href='https://github.com/codewithrabeeh/React-Netflix' target='_blank' rel='noreferrer'><Button variant="dark">GitHub</Button></a>
+                                    <a href='https://netflix-cwr.netlify.app/' target='_blank' rel='noreferrer'><Button variant="dark" className='ms-3'>Preview</Button></a>
                                 </div>
                             </Card.Body>
                         </Card>
@@ -80,8 +80,8 @@ function Work() {
                                     A clone of OLX using React.js and Firebase.
                                 </Card.Text>
                                 <div>
-                                    <a href='https://github.com/codewithrabeeh/React-Olx' target='_blank' rel='noreferrer'><Button variant="secondary">GitHub</Button></a>
-                                    <a href='https://olx-cwr.netlify.app/' target='_blank' rel='noreferrer'><Button variant="secondary" className='ms-3'>Preview</Button></a>
+                                    <a href='https://github.com/codewithrabeeh/React-Olx' target='_blank' rel='noreferrer'><Button variant="dark">GitHub</Button></a>
+                                    <a href='https://olx-cwr.netlify.app/' target='_blank' rel='noreferrer'><Button variant="dark" className='ms-3'>Preview</Button></a>
                                 </div>
                             </Card.Body>
                         </Card>

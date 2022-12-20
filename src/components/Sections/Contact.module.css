@@ -1,0 +1,46 @@
+.main{
+    background-color: rgb(246 246 246);
+    height: 100%;
+    color: black;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+}
+
+.contactC1 { 
+    text-align: start;
+}
+
+.contactC1 h2 {
+    font-size: 46px;
+}
+
+.contactC1 a {
+    color: black;
+    text-decoration: none;
+    padding-left: 7px;
+}
+
+.contactC2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contactC2 h6 {
+    display: flex !important;
+    padding-left: 5px;
+}
+
+.resumeBtn {
+    color: black !important;
+    border: black solid 1px !important;
+    background-color: transparent !important;
+}
+
+.resumeBtn:hover {
+    background-color: black !important;
+    color: white !important;
+    transition: 700ms;
+}

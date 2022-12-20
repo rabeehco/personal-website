@@ -1,0 +1,10 @@
+.main {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerTitle {
+    text-align: start;
+}

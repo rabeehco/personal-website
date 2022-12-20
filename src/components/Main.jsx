@@ -5,6 +5,8 @@ import Intro from './Sections/Intro'
 import About from './Sections/About'
 import Skills from './Sections/Skills'
 import Work from './Sections/Work'
+import Contact from './Sections/Contact'
+import Footer from './Sections/Footer'
 
 function Main() {
   return (
@@ -13,6 +15,8 @@ function Main() {
         <About />
         <Skills />
         <Work />
+        <Contact />
+        <Footer />
     </div>
   )
 }
