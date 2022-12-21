@@ -9,7 +9,7 @@ import classes from './Intro.module.css'
 function Intro() {
     return (
         <Container id='intro'>
-            <Row style={{ minHeight: '95vh' }} className="d-flex ">
+            <Row style={{ minHeight: '120vh' }} className="d-flex ">
                 <Col className={`${classes.flexCenter}`}>
                   
                     <AnimatedText
@@ -43,7 +43,7 @@ function Intro() {
 
                 </Col>
                 <Col className={`${classes.introImage}`}>
-                    <img src='https://res.cloudinary.com/deuyeqft4/image/upload/v1671366417/Public/profile-pic_z7pesi.png' />
+                    <img src='https://res.cloudinary.com/deuyeqft4/image/upload/v1671366417/Public/profile-pic_z7pesi.png' alt='Author'/>
                 </Col>
             </Row>
         </Container>
