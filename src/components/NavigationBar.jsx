@@ -15,7 +15,7 @@ function NavigationBar() {
                 <Navbar.Brand href="#home">Rabeeh Ebrahim</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id='basic-navbar-nav'>
-                <Nav className='w-100 ms-5'>
+                <Nav className='w-100 ms-lg-5'>
                     <Nav.Link active href='#intro'>Intro</Nav.Link>
                     <Nav.Link href='#about' >About</Nav.Link>
                     <Nav.Link href='#skills' >Skills</Nav.Link>
@@ -27,7 +27,7 @@ function NavigationBar() {
                     <a className='ms-0 ms-lg-3' href='https://www.linkedin.com/in/rabeehebrahim/' target='_blank' rel="noreferrer"><LinkedInIcon /></a>
                 </div>
                 </Nav>
-                </Navbar.Collapse>
+                </Navbar.Collapse> 
              
             </Container>
         </Navbar>
