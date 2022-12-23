@@ -10,7 +10,7 @@ import classes from './Navigation.module.css'
 
 function NavigationBar() {
     return (
-        <Navbar bg="light" variant="light" fixed='top' expand='lg'>
+        <Navbar bg="light" variant="light" fixed='top'  expand='lg'>
             <Container >
                 <Navbar.Brand href="#home">Rabeeh Ebrahim</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>

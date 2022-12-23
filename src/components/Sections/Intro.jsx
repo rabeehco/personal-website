@@ -8,8 +8,8 @@ import classes from './Intro.module.css'
 
 function Intro() {
     return (
-        <Container id='intro'>
-            <Row style={{ minHeight: '120vh' }} className="d-flex ">
+        <Container id='intro' className='mt-5'>
+           {/*  */}  <Row style={{ minHeight: '100vh'}} className="d-flex flex-column-reverse flex-lg-row">
                 <Col className={`${classes.flexCenter}`}>
                   
                     <AnimatedText
@@ -39,11 +39,11 @@ function Intro() {
                         Ebrahim
                     </AnimatedText>
 
-                    <AnimatedText className={classes.animateParagraph}>Web Developer + Content Writer</AnimatedText>
+                    <AnimatedText className={`${classes.animateParagraph} mb-5 mb-lg-0`}>Web Developer + Content Writer</AnimatedText>
 
                 </Col>
                 <Col className={`${classes.introImage}`}>
-                    <img src='https://res.cloudinary.com/deuyeqft4/image/upload/v1671366417/Public/profile-pic_z7pesi.png' alt='Author'/>
+                    <img className='mt-lg-0 mt-5' src='https://res.cloudinary.com/deuyeqft4/image/upload/v1671811998/profile-pic_yyrmub.png' alt='Author'/>
                 </Col>
             </Row>
         </Container>
