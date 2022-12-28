@@ -21,11 +21,11 @@ function Contact() {
                 
                 <Col className={`${classes.contactC2}`}>
                     <a href='https://drive.google.com/file/d/1r5pDw6UZyoUmKBuAV8ndWj6Rb6uY947G/view' target='_blank' rel='noreferrer' ><Button className={`mb-3 ${classes.resumeBtn}`}>Download Resume</Button></a>
-                    <div className={`mt-5`}>
+                    <div className={`mt-5 ${classes.connectTexts}`}>
                         <h2>Connect</h2>
-                        <h6>GitHub</h6>
-                        <h6>LinkedIn</h6>
-                        <h6>Twitter</h6>
+                        <h6><a href='https://www.github.com/codewithrabeeh' target='_blank' rel="noreferrer">GitHub</a></h6>
+                        <h6><a href='https://www.linkedin.com/in/rabeehebrahim/' target='_blank' rel="noreferrer">LinkedIn</a></h6>
+                        <h6><a href='https://www.twitter.com/rabeehebrahim_' target='_blank' rel="noreferrer">Twitter</a></h6>
                     </div>
                 </Col>
             </Row>
