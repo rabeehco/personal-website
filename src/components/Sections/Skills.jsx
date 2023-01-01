@@ -27,29 +27,10 @@ function Skills() {
         <Container fluid id='skills'>
             <Row className={`${classes.main} pt-5`}>
                 <Col className={`${classes.skills}`}>
-                    <h2 className='ms-5 fw-bold'>Skills</h2>
-                    {/* <p className='mt-4 ms-5'>Proficient:</p> */}
-                    {/* <div className={`${classes.logos} ms-5 w-25`}>
-                        <img src={js} alt='JavaScript Logo'></img>
-                        <img src={react} alt='Reactjs Logo'></img>
-                        <img src={node} alt='Nodejs Logo'></img>
-                        <img src={express} alt='Expressjs Logo'></img>
-                        <img src={mongodb} alt='MongoDB Logo'></img>
-                        <img src={firebase} alt='Firebase Logo'></img>
-                        <img src={html} alt='HTML Logo'></img>
-                        <img src={css} alt='CSS Logo'></img>
-                        <img src={bootstrap} alt='Bootstrap Logo'></img>
-                    </div>
-                    <p className='mt-4 ms-5'>Tools:</p>
-                    <div className={`${classes.logos} ms-5 w-25`}>
-                        <img src={git} alt='GIT Logo'></img>
-                        <img src={postman} alt='Postman Logo'></img>
-                        <img src={figma} alt='Figma Logo'></img>
-                        <img src={heroku} alt='Heroku Logo'></img> 
+                    <h2 className='ms-3 ms-sm-5 fw-bold'>Skills</h2>
 
-                    </div> */}
                     <Row className='d-flex flex-column flex-sm-row'>
-                        <Col className='d-flex flex-column justify-content-start align-items-start ps-5'>
+                        <Col className='d-flex flex-column justify-content-start align-items-start ps-sm-5 ps-3'>
                         <h4 className='ms-4 mt-4'>JavaScript</h4> 
                         <ProgressBar animated now={87} variant='warning' className='w-50 ms-5' />
                         <h4 className='ms-4 mt-4'>Node.Js</h4>
@@ -57,7 +38,7 @@ function Skills() {
                         <h4 className='ms-4 mt-4'>React.Js</h4>
                         <ProgressBar animated now={67} variant='primary' className='w-50 ms-5' />
                         </Col>
-                        <Col className='d-flex flex-column justify-content-start align-items-start ps-5'>
+                        <Col className='d-flex flex-column justify-content-start align-items-start ps-sm-5 ps-3'>
                         <h4 className='ms-4 mt-4'>MongoDB</h4>
                         <ProgressBar animated now={69} variant='secondary' className='w-50 ms-5' />
                         <h4 className='ms-4 mt-4'>HTML/CSS</h4>
@@ -68,8 +49,9 @@ function Skills() {
                 </Col >
 
                 <Col className={`mt-5 ${classes.skills}`}>
-                    <h2 className='ms-5 fw-bold'>Achievements</h2>
-                    <img className={`${classes.holopin} mt-3 mb-5 ms-5`} src='https://www.holopin.me/codewithrabeeh' alt='holopin' />
+                    <h2 className='ms-sm-5 ms-3 fw-bold'>Achievements</h2>
+                    <a href='https://www.holopin.io/@codewithrabeeh' target='_blank' rel='noreferrer'><img className={`${classes.holopin} mt-3 mb-3 ms-sm-5 ms-3`} src='https://www.holopin.me/codewithrabeeh' alt='holopin' /></a>
+                    <a href='https://dev.to/rabeeh' target='_blank' rel='noreferrer'><img className={`${classes.mongohackathon} mt-1 mb-3 ms-sm-5 ms-3`} src='https://res.cloudinary.com/deuyeqft4/image/upload/v1672540550/Public/MongoDB_Atlas_Hackathon_2022_Participant_j8cxwa.png' alt='mongodb atlas hackathon' /></a>
                 </Col>
             </Row>
         </Container>

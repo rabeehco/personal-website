@@ -31,3 +31,10 @@
     align-self: flex-start;
     display: flex;
 }
+
+.mongohackathon {
+    width: 30%;
+    height: 30%;
+    align-self: flex-start;
+    display: flex;
+}
