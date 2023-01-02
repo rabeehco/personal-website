@@ -14,7 +14,7 @@ const fourthProjectImage = 'https://res.cloudinary.com/deuyeqft4/image/upload/v1
 
 function Work() {
     return (
-        <Container fluid id='work'>
+        <Container fluid id='work' className='d-flex justify-content-center align-items-center w-100'>
             <Row className={`${classes.main} pt-5 pb-5`}>
                 <h2 className={`ps-5 fw-bold ${classes.projectTitle}`}>Projects</h2>
                 <Row className='mt-5'>
