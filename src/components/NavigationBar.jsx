@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import BookIcon from '@mui/icons-material/Book';
 
 import classes from './Navigation.module.css'
 
@@ -23,8 +24,8 @@ function NavigationBar() {
                     <Nav.Link href='#contact'>Contact</Nav.Link>
                 <div className={`mt-3 mt-lg-0 w-100 d-flex justify-content-lg-end justify-content-around align-items-center ${classes.icon}`} style={{width: '100px'}}>
                     <a href='https://github.com/codewithrabeeh' target='_blank' rel="noreferrer"><GitHubIcon /></a>
-                    <a className='ms-0 ms-lg-3' href='https://twitter.com/rabeehebrahim_' target='_blank' rel="noreferrer"><TwitterIcon /></a>
                     <a className='ms-0 ms-lg-3' href='https://www.linkedin.com/in/rabeehebrahim/' target='_blank' rel="noreferrer"><LinkedInIcon /></a>
+                    <a className='ms-0 ms-lg-3' href='https://www.rabeeh.tech' target='_blank' rel="noreferrer"><BookIcon /></a>
                 </div>
                 </Nav>
                 </Navbar.Collapse> 
