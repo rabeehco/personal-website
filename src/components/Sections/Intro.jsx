@@ -20,7 +20,7 @@ function Intro() {
                             x: '100px',
                             ease: 'ease',
                         }}
-                        className={`${classes.animatedFName} ps-5`}
+                        className={`${classes.animatedFName} ps-1`}
                     >
                         Rabeeh
                     </AnimatedText>
@@ -34,7 +34,7 @@ function Intro() {
                             x: '-100px',
                             ease: 'ease',
                         }}
-                        className={`${classes.animatedLName} pe-5`}
+                        className={`${classes.animatedLName} pe-1`}
                     >
                         Ebrahim
                     </AnimatedText>
@@ -42,9 +42,9 @@ function Intro() {
                     <AnimatedText className={`${classes.animateParagraph} mb-5 mb-lg-0`}>Web Developer + Content Writer</AnimatedText>
 
                 </Col>
-                {/* <Col className={`${classes.introImage}`}>
-                    <img className='mt-lg-0 mt-5' src='https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80' alt='Author'/>
-                </Col> */}
+                <Col className={`${classes.introImage}`}>
+                    <img className='mt-lg-0 mt-5' src='https://res.cloudinary.com/deuyeqft4/image/upload/v1673635479/Public/profile-pic_r3nqpf.png' alt='Author'/>
+                </Col>
             </Row>
         </Container>
     )
