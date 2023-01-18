@@ -43,7 +43,7 @@ function Intro() {
 
                 </Col>
                 <Col className={`${classes.introImage}`}>
-                    <img className='mt-lg-0 mt-5' src='https://res.cloudinary.com/deuyeqft4/image/upload/v1673853480/Public/ray_akbjns.png' alt='Author'/>
+                    <img className='mt-lg-0 mt-5' src='https://res.cloudinary.com/deuyeqft4/image/upload/v1674046445/Public/profile-pic_6_kjcpbz.png' alt='Author'/>
                 </Col>
             </Row>
         </Container>

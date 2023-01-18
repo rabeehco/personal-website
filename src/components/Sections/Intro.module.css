@@ -49,6 +49,20 @@
 }
 
 .introImage img {
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
+}
+
+@media screen and (max-width: 800px) {
+  .introImage img {
+    height: 230px;
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .introImage img {
+    height: 200px;
+    width: 200px;
+  }
 }
