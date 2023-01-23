@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import TwitterIcon from '@mui/icons-material/Twitter';
+// import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import BookIcon from '@mui/icons-material/Book';
 
@@ -13,7 +13,7 @@ function NavigationBar() {
     return (
         <Navbar bg="light" variant="light" fixed='top'  expand='lg'>
             <Container >
-                <Navbar.Brand href="#home">Rabeeh Ebrahim</Navbar.Brand>
+                <Navbar.Brand href="#intro">Rabeeh Ebrahim</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id='basic-navbar-nav'>
                 <Nav className='w-100 ms-lg-5'>

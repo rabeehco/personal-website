@@ -38,3 +38,35 @@
     align-self: flex-start;
     display: flex;
 }
+
+.typescript div:last-child{
+    background-color: #007accd4 !important;
+}
+
+.javascript div:last-child{
+    background-color: #e4cd0b !important;
+}
+
+.nodejs div:last-child{
+    background-color: #00ff5e69 !important;
+}
+
+.react div:last-child{
+    background-color: #5dceee !important;
+}
+
+.mongodb div:last-child{
+    background-color: #4ea94bbf !important;
+}
+
+.postgresql div:last-child{
+    background-color: #316192cf !important;
+}
+
+.html div:last-child{
+    background-color: #e34f26d1 !important;
+}
+
+.css div:last-child{
+    background-color: #1572b66e !important;
+}

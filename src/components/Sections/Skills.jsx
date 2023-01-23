@@ -31,18 +31,34 @@ function Skills() {
 
                     <Row className='d-flex flex-column flex-sm-row'>
                         <Col className='d-flex flex-column justify-content-start align-items-start ps-sm-5 ps-3'>
-                        <h4 className='ms-4 mt-4'>JavaScript</h4> 
-                        <ProgressBar animated now={87} variant='warning' className='w-50 ms-5' />
-                        <h4 className='ms-4 mt-4'>Node.Js</h4>
-                        <ProgressBar animated now={70} variant='success' className='w-50 ms-5' />
-                        <h4 className='ms-4 mt-4'>React.Js</h4>
-                        <ProgressBar animated now={67} variant='primary' className='w-50 ms-5' />
+                        
+                        <img className='ms-4 mb-2 mt-4' src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' alt='typescript'/>
+                        <ProgressBar animated now={86} className={`w-50 ms-5 ${classes.typescript}`}/>   
+                        
+                        <img className='ms-4 mb-2 mt-4' src='https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E' alt='javascript' />
+                        <ProgressBar animated now={88} className={`w-50 ms-5 ${classes.javascript}`} />
+
+                        <img className='ms-4 mb-2 mt-4' src='https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white' alt='nodejs'/>
+                        <ProgressBar animated now={86} className={`w-50 ms-5 ${classes.nodejs}`} />
+
+                        <img className='ms-4 mb-2 mt-4' src='https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB' alt='react'/>
+                        <ProgressBar animated now={88} className={`w-50 ms-5 ${classes.react}`} />
+                        
                         </Col>
+
                         <Col className='d-flex flex-column justify-content-start align-items-start ps-sm-5 ps-3'>
-                        <h4 className='ms-4 mt-4'>MongoDB</h4>
-                        <ProgressBar animated now={69} variant='secondary' className='w-50 ms-5' />
-                        <h4 className='ms-4 mt-4'>HTML/CSS</h4>
-                        <ProgressBar animated now={70} variant='danger' className='w-50 ms-5' />
+                        
+                        <img className='ms-4 mb-2 mt-4' src='https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white' alt='mongodb'/>
+                        <ProgressBar animated now={87} className={`w-50 ms-5 ${classes.mongodb}`} />
+
+                        <img className='ms-4 mb-2 mt-4' src='https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white' alt='postgresql'/>
+                        <ProgressBar animated now={80} className={`w-50 ms-5 ${classes.postgresql}`} />
+
+                        <img className='ms-4 mb-2 mt-4' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' alt='html'/>
+                        <ProgressBar animated now={89} className={`w-50 ms-5 ${classes.html}`} />
+
+                        <img className='ms-4 mb-2 mt-4' src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' alt='css'/>
+                        <ProgressBar animated now={90} className={`w-50 ms-5 ${classes.css}`} />                                                                      
                         </Col>
 
                     </Row>
