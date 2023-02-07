@@ -20,7 +20,7 @@ function Contact() {
                 </Col>
                 
                 <Col className={`${classes.contactC2} ps-5 mt-sm-0 mt-5`}>
-                    <a href='https://drive.google.com/file/d/1r5pDw6UZyoUmKBuAV8ndWj6Rb6uY947G/view' target='_blank' rel='noreferrer' ><Button className={`mb-3 ${classes.resumeBtn}`}>Download&nbsp;Resume</Button></a>
+                    <a href='https://drive.google.com/file/d/1BWuzo-NBDdjW-VLBp51Z6g8zy1a0s_yW/view' target='_blank' rel='noreferrer' ><Button className={`mb-3 ${classes.resumeBtn}`}>Download&nbsp;Resume</Button></a>
                     <div className={`mt-5 ${classes.connectTexts}`}>
                         <h2>Connect</h2>
                         <h6><a href='https://www.github.com/codewithrabeeh' target='_blank' rel="noreferrer">GitHub</a></h6>
