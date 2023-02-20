@@ -11,7 +11,9 @@ function About() {
             <Row className={`${classes.main} pt-5 pb-5`}>
                 <Col className={`${classes.about}`}>
                     <h2 className='ms-3 ms-sm-5 fw-bold'>About Me</h2>
-                    <p className='mt-4 ms-3 ms-sm-5'>I am Rabeeh Ebrahim, a self-taught full-stack web developer who uses React, Node, Express, and MongoDB to develop powerful websites. I have done my diploma in Travel and Tourism and worked for a few years. Coding was one of my hobbies back then. Now I am a Web developer who messes around with codes. Love to contribute to open source and build things that will be helpful for humanity. I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand.</p>
+                    <p className='mt-4 ms-3 ms-sm-5'>Hi there! My name is Rabeeh Ebrahim and I am a self-taught full-stack web developer with a passion for building powerful websites using React, Node, Express, and MongoDB. I have always been interested in coding, and after completing my diploma in Travel and Tourism and working for a few years, I decided to pursue my passion for web development.</p>
+
+                    <p className='mt-4 ms-3 ms-sm-5'>I love to contribute to open source projects and build things that are helpful for humanity. I enjoy taking on challenging work that allows me to learn new things and stretch my skills in different directions. As a lifelong learner, I make sure to stay up-to-date with the latest trends and technologies in the industry so that I can tackle any project with the right tools and techniques.</p>
                 </Col>
             </Row>
         </Container>
