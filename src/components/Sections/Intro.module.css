@@ -51,6 +51,7 @@
 .introImage img {
     height: 280px;
     width: 280px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 800px) {
